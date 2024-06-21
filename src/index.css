@@ -5,6 +5,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(105, 161, 0);
+  background-image: "https://www.britannica.com/technology/traffic-control/Air-traffic-control#/media/1/601854/124495";
+  background-size: cover;
 }
 
 code {

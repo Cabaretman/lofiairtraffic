@@ -1,38 +1,57 @@
+/* src/App.css */
 .App {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   text-align: center;
+  background-color: #7638e9;
+  border: 1000px;
+  opacity: 0.8;
+  border-radius: 1cm;
+  padding: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #a79f39; /* Blue */
+  color: #000000;
+  border: 5cm;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+button:hover {
+  background-color: #0056b3; /* Darker blue */
+  transform: scale(1.05); /* Slightly increase size on hover */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+label {
+  margin: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+input[type="range"] {
+  width: 200px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* styles.css */
+
+/* Apply background image to the entire page */
+body {
+  background-image: url('image2.jpg'); /* Replace with your image path */
+  background-size: cover; /* Cover the entire background */
+  background-position: center; /* Center the background image */
+  background-repeat: no-repeat; /* Prevent repeating of the image */
+  height: 100vh; /* Ensure full viewport height */
+  margin: 0; /* Remove default margin */
+  display: flex; /* Optional: Helps center content vertically */
+  justify-content: center; /* Optional: Helps center content horizontally */
+  align-items: center; /* Optional: Helps center content vertically */
 }
+
+/* Optional: Center content horizontally and vertically */
+.content {
+  text-align: center;
+  color: #ffffff; /* Set text color for better contrast */
+}
+
