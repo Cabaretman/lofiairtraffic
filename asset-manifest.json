@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/lofiairtraffic/static/css/main.ee42fa3b.css",
+    "main.js": "/lofiairtraffic/static/js/main.046649f0.js",
+    "static/js/453.e9f95f52.chunk.js": "/lofiairtraffic/static/js/453.e9f95f52.chunk.js",
+    "static/media/image2.jpg": "/lofiairtraffic/static/media/image2.37b37a1223dddc167d0e.jpg",
+    "index.html": "/lofiairtraffic/index.html",
+    "main.ee42fa3b.css.map": "/lofiairtraffic/static/css/main.ee42fa3b.css.map",
+    "main.046649f0.js.map": "/lofiairtraffic/static/js/main.046649f0.js.map",
+    "453.e9f95f52.chunk.js.map": "/lofiairtraffic/static/js/453.e9f95f52.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ee42fa3b.css",
+    "static/js/main.046649f0.js"
+  ]
+}
